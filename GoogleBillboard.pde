@@ -9,7 +9,6 @@ public void setup()
     	if(isPrime(num) == true)
     	{
     		System.out.println(num);
-    		break;
     	}
 	}	
 }
