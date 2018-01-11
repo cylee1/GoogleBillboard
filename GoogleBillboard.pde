@@ -2,13 +2,14 @@ public final static String e = "2.7182818284590452353602874713526624977572470936
 public void setup()  
 {            
 	//String substring(int beginIndex,int endIndex);
- 	for(int i = 0; i < 	; i++)
+ 	for(int i = 2; i < e.length()-9; i++)
  	{
     	String digits = e.substring(i,i+10);
-    	double dNum = Double.parseDouble(digits);
-    	if(isPrime(dNum) == true)
+    	double num = Double.parseDouble(digits);
+    	if(isPrime(num) == true)
     	{
-    		System.out.println(dNum);
+    		System.out.println(num);
+    		break;
     	}
 	}	
 }
